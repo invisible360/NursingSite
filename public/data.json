@@ -1,0 +1,149 @@
+[
+    {
+        "patientdID": "P#00001",
+        "patientName": "Mark",
+        "sickness": "Viral Fever",
+        "ReferencedDoctor": "Dr. Mitchel",
+        "ReferencedDoctorID": "D#00007",
+        "prescription": [
+            {
+                "patientdID": "P#00001",
+                "medicineType": "Tablet",
+                "medicineName": "Paracetamol",
+                "quantity" : "10mg",
+                "prescribedBy": "Dr. Mitchel",
+                "prescribedByDoctorID": "D#00007",
+                "usageTime": 3,
+                "slots": [
+                    {
+                        "slot": 1,
+                        "shiftStart": 7,
+                        "shiftEnd": 10,
+                        "howMany": 1
+                        
+                    },
+                    {
+                        "slot": 2,
+                        "shiftStart": 13,
+                        "shiftEnd": 16,
+                        "howMany": 1
+                    },
+                    {
+                        "slot": 3,
+                        "shiftStart": 20,
+                        "shiftEnd": 24,
+                        "howMany": 1
+                    }
+                ],
+                "days": 0,
+                "continue": true,
+                "afterMeal": true,
+                "externalUse": false,
+                "externalUsingPlace": false
+            },
+            {
+                "patientdID": "P#00001",
+                "medicineType": "Tablet",
+                "medicineName": "Monas",
+                "quantity" : "18mg",
+                "prescribedBy": "Dr. Mitchel",
+                "prescribedByDoctorID": "D#00007",
+                "usageTime": 5,
+                "slots": [
+                    {
+                        "slot": 1,
+                        "shiftStart": 6,
+                        "shiftEnd": 8,
+                        "howMany": 1
+                    },
+                    {
+                        "slot": 2,
+                        "shiftStart": 10,
+                        "shiftEnd": 13,
+                        "howMany": 1
+                    },
+                    {
+                        "slot": 3,
+                        "shiftStart": 14,
+                        "shiftEnd": 17,
+                        "howMany": 1
+                    },
+                    {
+                        "slot": 4,
+                        "shiftStart": 18,
+                        "shiftEnd": 21,
+                        "howMany": 1
+                    },
+                    {
+                        "slot": 5,
+                        "shiftStart": 22,
+                        "shiftEnd": 24,
+                        "howMany": 1
+                    }
+                ],
+                "days": 5,
+                "continue": false,
+                "afterMeal": false,
+                "externalUse": false,
+                "externalUsingPlace": false
+            },
+            {
+                "patientdID": "P#00001",
+                "medicineType": "Ointment",
+                "medicineName": "Lulidor",
+                "quantity" : "30g",
+                "prescribedBy": "Dr. Clark",
+                "prescribedByDoctorID": "D#00008",
+                "usageTime": 2,
+                "slots": [
+                    {
+                        "slot": 1,
+                        "shiftStart": 6,
+                        "shiftEnd": 12,
+                        "howMany": 1
+                    },
+                    {
+                        "slot": 2,
+                        "shiftStart": 13,
+                        "shiftEnd": 24,
+                        "howMany": 1
+                    }
+                ],
+                "days": 15,
+                "afterMeal": false,
+                "continue": false,
+                "externalUse": true,
+                "externalUsingPlace": "Upper Neck"
+            },
+            {
+                "patientdID": "P#00001",
+                "medicineType": "Eye-Drop",
+                "medicineName": "Emadine",
+                "quantity" : "10g",
+                "prescribedBy": "Dr. Mitchel",
+                "prescribedByDoctorID": "D#00007",
+                "usageTime": 2,
+                "slots": [
+                    {
+                        "slot": 1,
+                        "shiftStart": 6,
+                        "shiftEnd": 12,
+                        "howMany": 5
+                    },
+                    {
+                        "slot": 2,
+                        "shiftStart": 13,
+                        "shiftEnd": 24,
+                        "howMany": 5
+                    }
+                ],
+                "days": 14,
+                "afterMeal": false,
+                "continue": false,
+                "externalUse": true,
+                "externalUsingPlace": "Both Left and Right Eye"
+            }
+        ]
+    }
+]
+

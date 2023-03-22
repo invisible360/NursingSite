@@ -1,0 +1,107 @@
+[
+    {
+        "patientdID": "P#00001",
+        "patientName": "Mark",
+        "sickness": "Viral Fever",
+        "ReferencedDoctor": "Dr. Mitchel",
+        "ReferencedDoctorID": "D#00007",
+        "timeSlots": [
+            {
+                "timeSlot": 7,
+                "patientdID": "P#00001",
+                "medicines": [
+                    {
+                        "medicineName": "Medicine-1",
+                        "medicineType": "Tablet",
+                        "ratings": "10mg",
+                        "prescribedBy": "Dr. Mitchel",
+                        "prescribedByDoctorID": "D#00007",
+                        "doses": 2,
+                        "days": 10,
+                        "continue": false,
+                        "afterMeal": true,
+                        "externalUse": false,
+                        "usesOn": false
+                    },
+                    {
+                        "medicineName": "Medicine-2",
+                        "medicineType": "Tablet",
+                        "ratings": "10mg",
+                        "prescribedBy": "Dr. Mitchel",
+                        "prescribedByDoctorID": "D#00007",
+                        "doses": 2,
+                        "days": 5,
+                        "continue": false,
+                        "afterMeal": false,
+                        "externalUse": false,
+                        "usesOn": false
+                    }
+                ]
+            },
+            {
+                "timeSlot": 12,
+                "patientdID": "P#00001",
+                "medicines": [
+                    {
+                        "medicineName": "Medicine-3",
+                        "medicineType": "Tablet",
+                        "ratings": "10mg",
+                        "prescribedBy": "Dr. Mitchel",
+                        "prescribedByDoctorID": "D#00007",
+                        "doses": 1,
+                        "days": 15,
+                        "continue": false,
+                        "afterMeal": true,
+                        "externalUse": false,
+                        "usesOn": false
+                    }
+                ]
+            },
+            {
+                "timeSlot": 22,
+                "patientdID": "P#00001",
+                "medicines": [
+                    {
+                        "medicineName": "Medicine-4",
+                        "medicineType": "Tablet",
+                        "ratings": "10mg",
+                        "prescribedBy": "Dr. Mitchel",
+                        "prescribedByDoctorID": "D#00007",
+                        "doses": 1,
+                        "days": 0,
+                        "continue": true,
+                        "afterMeal": true,
+                        "externalUse": false,
+                        "usesOn": false
+                    },
+                    {
+                        "medicineName": "Medicine-5",
+                        "medicineType": "Ointment",
+                        "ratings": "10mg",
+                        "prescribedBy": "Dr. Mitchel",
+                        "prescribedByDoctorID": "D#00007",
+                        "doses": 5,
+                        "days": 5,
+                        "afterMeal": false,
+                        "continue": false,
+                        "externalUse": true,
+                        "usesOn": "Upper Neck"
+                    },
+                    {
+                        "medicineName": "Medicine-6",
+                        "medicineType": "Eye-Drop",
+                        "ratings": "10mg",
+                        "prescribedBy": "Dr. Mitchel",
+                        "prescribedByDoctorID": "D#00007",
+                        "doses": 3,
+                        "days": 14,
+                        "afterMeal": false,
+                        "continue": false,
+                        "externalUse": true,
+                        "usesOn": "Both Left and Right Eye"
+                    }
+                ]
+            }
+        ]
+    }
+]
